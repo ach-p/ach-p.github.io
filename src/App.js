@@ -1,7 +1,5 @@
-import React from 'react';
-import './App.css';
 import React, { useState, useEffect } from 'react';
-
+import './App.css';
 const CrossBorderSalesCalculator = () => {
   const [inputs, setInputs] = useState({
     salePrice: 22.99,
